@@ -1,7 +1,7 @@
 # credit-log
 Console Log event CRUD
 
--- This is a Maven project and used spring mvc and hibernate.
+-- This is a Maven project and used spring mvc and hibernate. \n
 -- ConsoleLog.txt file has been created with the example logs provided made few changes so that the content becomes JSON complaint
 -- Used JSONParser to convert each log entry (which is similar to JSON object) into model class.
 -- Further business logic is applied where finally an ArrayList of model objects is created which have processing time over 4ms.
