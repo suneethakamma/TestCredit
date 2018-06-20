@@ -28,9 +28,9 @@ public class CreditController {
         
         int numOfLogEvents = service.process(logFile);
         
-        map.put("test", Integer.toString(numOfLogEvents));
+        map.put("numOfLogEventsStored", Integer.toString(numOfLogEvents));
 	    
-	    return "First";
+	    return "FinalResult";
 	}
 
 }
