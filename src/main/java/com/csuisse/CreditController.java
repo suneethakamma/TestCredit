@@ -30,7 +30,7 @@ public class CreditController {
         
         map.put("numOfLogEventsStored", Integer.toString(numOfLogEvents));
 	    
-	    return "FinalResult";
+	return "FinalResult";
 	}
 
 }
